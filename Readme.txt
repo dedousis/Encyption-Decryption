@@ -40,9 +40,4 @@ extract the last 16 bytes of the ciphertext which are (possibly) the CMAC(cipher
 the last 16 bytes and finally generate a new CMAC(plaintext).At the end we get these 2 CMACS and with verify_cmac()
 we compare them to find them if they are identical,if they are, it means that noone in the middle has changed our file 
 if not something bad has happend.
-	As for project issues, i did not encounterd big problems during this project, the only issue i had it was when decrypting
-i was losing the last 16 bytes of the file but it was easily corrected.
-	Finally the given files (hy457_verifyme_128.txt)(hy457_verifyme_256.txt) were not succesfully verified because the CMAC
-from the cipher text was different than the generated from the plaintext, which meanss that somenone in the middle before the decryption 
-has interfere to the file and changed something.
 --------------------------------------
