@@ -1,0 +1,3 @@
+Encrypt this file using  a 256-bit key.
+The key should be generated using yourname as password.
+For example, if your name is andreas the password should be andreas.
