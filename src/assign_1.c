@@ -409,7 +409,6 @@ verify_cmac(unsigned char *cmac1, unsigned char *cmac2)
 
 
 
-/* TODO Develop your functions here... */
 unsigned char*
 read_file(char* input_file){
 	FILE *fp = fopen(input_file, "rb");
